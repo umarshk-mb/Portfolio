@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  margin:0;
+  padding:0;
+  top:0;
+}
+
+.background{
+
+  /*background: rgba(0, 0, 0, 0.92);
+  backdrop-filter: blur(5.1px);
+  -webkit-backdrop-filter: blur(5.1px);*/
+  position: absolute;
+  //background-color: #000000;
+
+  background-image: url("https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width:100%;
+  height:100vh;
+  margin: 0;
+  padding:0;
+
+}
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

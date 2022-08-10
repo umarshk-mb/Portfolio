@@ -1,0 +1,31 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  margin-top:40vh;
+  margin-left: 5vw;
+
+}
+.title{
+  font-family: fira sans;
+  font-size:1.8rem;
+  color:#FF6347;
+}
+.title.letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.des1{
+  font-family: Comfortaa;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: antiquewhite;
+}
+.des2{
+  font-family: Comfortaa;
+  margin-top: 0.2rem;
+  font-size: 1.4rem;
+  color: antiquewhite;
+}
+
