@@ -19,7 +19,7 @@ export class HomeComponent implements AfterViewInit {
   tweet='assets/images/twiiter.png'
   github='assets/images/github.png'
   gmail='assets/images/mail.png'
-  resume='https://drive.google.com/file/d/1nZA_u0SEc3hnwDrGycNST9CmHt91fBUQ/view?usp=sharing'
+  resume='https://drive.google.com/file/d/1wTUQ0a32aYegAoxfoz0v_lvf4CZkmTKs/view'
 
   ngAfterViewInit(): void {
     var textWrapper = document.querySelector('.name');

@@ -45,7 +45,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     {path:'skills',component: SkillsComponent},
     {path:'contact',component: ContactComponent},
     ]),
-
+    NgCircleProgressModule.forRoot()
    ],
 
   //providers: [ContactService],

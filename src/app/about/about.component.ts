@@ -10,7 +10,7 @@ export class AboutComponent implements AfterViewInit {
 
   constructor() { }
 
-  des1='I am a Computer Science Undergraduate, and I am also working as a Front-end intern in Novaitech.'
+  des1='I am a Computer Science Graduate, and I am also working as a Front-end intern in Novaitech.'
   des2= 'I have a deep interest in Web development and Python.'
 
 
