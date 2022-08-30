@@ -10,8 +10,10 @@ export class AboutComponent implements AfterViewInit {
 
   constructor() { }
 
-  des1='I am from Davangere district, Karnataka, India. I completed my Bachelor Of Engineering in Computer Science and achieved a GPA of 7.5 and work experience as a front-end developer intern in Novaitech Company, Bengaluru. Knee to learn new technologies and having a deep interest in Web development and Python programming language.'
-
+  des1='I am from Davangere district, Karnataka, India.'
+  des2='I completed my Bachelor Of Engineering in Computer Science and achieved a GPA of 7.5 .'
+  des3='Knee to learn new technologies and having a deep interest in Web development and Python programming language.'
+  des4='Certified in Responsive web design, Python, and JavaScript from freecodecamp.'
 
   ngAfterViewInit(): void{
     const textWrapper = document.querySelector('.des1,.des2');
