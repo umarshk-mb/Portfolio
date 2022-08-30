@@ -11,7 +11,7 @@ export class HomeComponent implements AfterViewInit {
   constructor() { }
 
   img1='assets/images/background.jpg'
-  myimage='assets/images/myimage.jpg'
+  myimage='assets/images/Umer.jpg'
   name="MOHAMMED UMER M B"
   d1='I AM A COMPUTER SCIENCE ENGINEER AND A WEB DEVELOPER.'
   insta='assets/images/instagram.png'
