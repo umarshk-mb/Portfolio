@@ -11,4 +11,4 @@
 
 -> And finally in this website I had added 4 live projects such as random quote generator, YouTube clone, Netflix clone and movie ticket booking app. And this is my interesting project that I worked on till now.
 
-Deployed - (https://umar-shk.netlify.app/)
+<!-- Deployed - (https://umar-shk.netlify.app/)
