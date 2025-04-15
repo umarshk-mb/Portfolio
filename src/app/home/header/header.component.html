@@ -1,0 +1,14 @@
+<div class="header">
+
+  <ul class="nav">
+    <a [routerLink]="['home']" [routerLinkActive]="['active']"> <li class='list'>Home</li> </a>
+    <a [routerLink]="['about']" [routerLinkActive]="['active']"> <li class='list'>About</li> </a>
+    <a [routerLink]="['portfolio']" [routerLinkActive]="['active']"> <li class='list'>Portfolio</li> </a>
+    <a [routerLink]="['skills']" [routerLinkActive]="['active']"> <li class='list'>Skills</li> </a>
+    <a [routerLink]="['contact']" [routerLinkActive]="['active']"> <li class='list'>Contact</li></a>
+
+  </ul>
+
+</div>
+
+<router-outlet></router-outlet>

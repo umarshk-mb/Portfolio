@@ -1,0 +1,44 @@
+*{
+  margin:0;
+  padding:0;
+  top:0;
+}
+
+.header{
+  position: fixed;
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0.63);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding:1rem;
+  width: 100%;
+
+}
+.list{
+  color:white;
+}
+.active{
+  text-decoration: none;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+  padding:0.2rem;
+  color:255, 255, 255, 0.3;
+  text-decoration: none;
+}
+
+.nav{
+
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right:1.5rem;
+  gap:1.5rem;
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight:0.5;
+  color: 255, 255, 255, 0.3;
+  text-decoration: none;
+}
+

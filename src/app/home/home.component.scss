@@ -1,0 +1,87 @@
+*{
+  margin:0;
+  padding:0;
+  top:0;
+}
+
+.body{
+  display:grid;
+  grid-template-columns: 0.5fr 2fr 0.5fr;
+  width:100%;
+  position :absolute;
+  top:18vh;
+  color:white;
+
+}
+
+.myimg{
+  grid-column: 2/3;
+  justify-self: center;
+  align-self: center;
+  border-radius: 6rem;
+}
+
+.name,.des,.resume{
+ margin-top: 1rem;
+  align-self: center;
+  grid-column: 2/3;
+  justify-self: center;
+}
+
+.name{
+  text-shadow: 0 0 3px #FFFFFF;
+  letter-spacing:0.2rem;
+}
+
+.des{
+  font-size:1.3rem;
+  letter-spacing:0.2rem;
+  text-shadow: 0.7px 1px 0;
+}
+
+.des .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.resume{
+  border-radius:1.2rem;
+ padding:0.5rem;
+ font-size: 1rem;
+ background:#FF6347;
+}
+.res{
+  text-shadow: 0.7px 1px 0;
+  text-decoration: none;
+  color:	white;
+}
+.footer{
+  display:flex;
+  position: relative;
+  justify-content: center;
+  gap:2.5vw;
+  top:95vh;
+  background: rgba(255, 255, 255, 0.2);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+.about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  margin-top:30vh;
+  margin-left: 8vw;
+  margin-right:6vw;
+  background: rgba(255, 255, 255, 0.4);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+.title{
+  font-family: fira sans;
+  font-size:1.9rem;
+  color:#FF6347;
+  font-style: bold;
+}
+.title.letter {
+  display: inline-block;
+  line-height: 1em;
+}
+.des1{
+  font-family: Comfortaa;
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  color: #000000;
+}
+
+

@@ -1,0 +1,61 @@
+#skills{
+  color: #ffffff;
+
+}
+.skills{
+  font-size:1.8rem;
+  margin-top:5rem;
+  margin-left:8rem ;
+  color:#FF6347;
+}
+.des1{
+  font-size:1.2rem;
+  margin-top:0.5rem;
+  margin-left:8rem ;
+}
+
+#progress,.cap{
+  display: flex;
+  align-items:stretch;
+  justify-content: space-evenly;
+  margin-top:1.5rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.cap{
+  margin-top:0.5rem;
+  color:#ffffff;
+  font-size:1.2rem;
+}
+
+
+
+.tech{
+  //opacity: 0.8;
+  //background-color:#000000;
+  background: rgba(255, 255, 255, 0.2);
+
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+  width:60%;
+  height:30%;
+  margin-top:2.5rem;
+  margin-left: 20%;
+
+}
+
+.des2{
+  color: #FF6347;
+  text-align:center;
+  font-size:1.5rem;
+}
+.technologies{
+  color: #000000;
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size:1.2rem;
+
+}

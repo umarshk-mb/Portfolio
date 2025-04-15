@@ -1,0 +1,83 @@
+<div id="skills">
+  <h2 class="skills">Skills</h2>
+  <p class="des1">What i'm best at</p>
+</div>
+
+  <div id="progress">
+      <circle-progress class="css"
+          [percent]="70"
+          [radius]="50"
+          [outerStrokeWidth]="8"
+          [innerStrokeWidth]="5"
+          [outerStrokeColor]="'#92a0ad'"
+          [innerStrokeColor]="'#2f4f4f'"
+          [animation]="true"
+          [animationDuration]="800"
+          [responsive]="false"
+          [showSubtitle]="false"
+          [showUnits]="true">
+      </circle-progress>
+
+
+      <circle-progress class="angular"
+          [percent]="73"
+          [radius]="50"
+          [outerStrokeWidth]="8"
+          [innerStrokeWidth]="5"
+          [outerStrokeColor]="'#92a0ad'"
+          [innerStrokeColor]="'#2f4f4f'"
+          [animation]="true"
+          [animationDuration]="800"
+          [responsive]="false"
+          [showSubtitle]="false"
+          [showUnits]="true"
+          >
+      </circle-progress>
+
+      <circle-progress class="python"
+          [percent]="75"
+          [radius]="50"
+          [outerStrokeWidth]="8"
+          [innerStrokeWidth]="5"
+          [outerStrokeColor]="'#92a0ad'"
+          [innerStrokeColor]="'#2f4f4f'"
+          [animation]="true"
+          [animationDuration]="800"
+          [responsive]="false"
+          [showSubtitle]="false"
+          [showUnits]="true">
+      </circle-progress>
+
+      <circle-progress class="javascript"
+      [percent]="60"
+      [radius]="50"
+      [outerStrokeWidth]="8"
+      [innerStrokeWidth]="5"
+      [outerStrokeColor]="'#92a0ad'"
+      [innerStrokeColor]="'#2f4f4f'"
+      [animation]="true"
+      [animationDuration]="500"
+      [responsive]="false"
+      [showSubtitle]="false"
+      [showUnits]="true">
+  </circle-progress>
+  </div>
+
+  <div class="cap">
+      <p>CSS</p>
+      <p>Python</p>
+      <p>Angular</p>
+      <p>JavaScript</p>
+  </div>
+
+  <div class="tech" >
+  <h2 class="des2">Technical skills</h2>
+  <section class="technologies" *ngFor="let skill of skills">
+      <p class="s1">{{ skill.tech}}</p>
+      <p class="s2">{{ skill.lang}}</p>
+  </section>
+
+  </div>
+
+
+<router-outlet></router-outlet>
